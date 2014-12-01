@@ -1,0 +1,6 @@
+<?php /*Content*/ ?>
+
+<?php $__env->startSection('content'); ?>
+    <h1>Nguyễn Xuân Công</h1>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('site.layouts.semantic', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
